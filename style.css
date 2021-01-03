@@ -1,8 +1,12 @@
 body {
     margin: 0;
 
-    color: #fff;
-    background-color: #4c6781;
+    color: #000;
+    background-color: #3C3F41;
+    font-family: Consolas, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.1;
 }
 
 *, *:before, *:after {
@@ -26,15 +30,20 @@ p {
     width: 80%;
     height: auto;
 
-    background-color: #000;
+    background-color: #1D1F21;
+    border-radius: 10px;
     position: absolute;
     top: 50px;
     right: 10%;
+
 }
 
 .box__title {
-    color: #caefbb;
-    font-size: 22px;
+    padding: 15px 0;
+    color: #D7D8D9;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
     text-align: center;
 }
 .box__title:before, .box__title:after {
@@ -50,8 +59,7 @@ p {
     margin-left: 9px;
 }
 .box__ul {
-    border: 1px solid #0f0;
-    padding: 10px;
+    padding: 10px 10px;
 }
 
 
@@ -61,10 +69,10 @@ p {
 /* JS HTML LOG */
 
 .box__subtitle {
-    color: #33acda;
-    font-family: sans-serif;
+    color: #C0D8D9;
     list-style: none;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 400;
     margin: 15px 20px;
     text-align: center;
 
@@ -74,35 +82,41 @@ p {
 }
 
 .box__text {
-    margin: 10px 10px;
+    margin: 20px 0;
+    padding: 10px 17px;
+    font-size: 18px;
+    border-left: 2px solid #fff;
+    color: #D89333;
     display: block;
-    color: #c7c7c7;
     line-height: 1.2;
-    font-size: 20px;
-    font-style: normal;
-    text-align: center;
+    text-align: left;
 }
 
 .box__code {
-    margin: 15px 15px;
+    font-size: 16px;
+    margin: 5px 15px;
     display: block;
-    color: #1ae097;
-    font-size: 18px;
-    font-style: italic;
+    color: #A87FB8;
+
     text-align: left;
 }
-.box__code:hover {
 
+
+.box__console {
+    font-size: 16px;
+    margin: 5px 15px;
+    display: block;
+    color: #767676;
+    font-style: normal;
+    text-align: left;
 }
 
 
 .box__ex {
-    margin: 10px 10px;
-    color: #cc8e8e;
-    font-family: sans-serif;
+    font-size: 16px;
+    margin: 5px 15px;
+    color: #D1DDB9;
     list-style: none;
-    font-size: 18px;
-    margin: 15px 10px;
     text-align: left;
 
     opacity: .8;
@@ -111,20 +125,20 @@ p {
 
 }
 .box__ex:hover {
-    color: #edc8c8;
+    color: #e2f8b4;
     opacity: 1;
 }
 
 .box__ex__type {
-    color: #2b6bca;
+    color: #539EEA;
 }
 .box__ex_value {
-    color: #3ada30;
+    color: #377908;
 }
 .box__ex__type:hover, .box__ex_value:hover {
     font-style: italic;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 /* JS HTML LOG */
