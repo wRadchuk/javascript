@@ -27,15 +27,14 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 80%;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
     height: auto;
 
     background-color: #1D1F21;
     border-radius: 10px;
-    position: absolute;
-    top: 50px;
-    right: 10%;
-
 }
 
 .box__title {
